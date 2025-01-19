@@ -1,0 +1,18 @@
+/* src/components/Features.css */
+
+.features {
+    margin-top: 40px;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  

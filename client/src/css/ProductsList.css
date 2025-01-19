@@ -1,0 +1,16 @@
+/* src/css/ProductsList.css */
+.products-list-container {
+    margin: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  

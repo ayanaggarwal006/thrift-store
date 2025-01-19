@@ -1,0 +1,36 @@
+/* src/css/Footer.css */
+
+/* Footer Section */
+.footer-container {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer-container p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.footer-container a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-container a:hover {
+  color: #ff4500;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 15px 5px;
+  }
+
+  .footer-container p {
+    font-size: 0.8rem;
+  }
+}

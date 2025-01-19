@@ -1,0 +1,25 @@
+/* src/components/CallToAction.css */
+
+.cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buy-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .sell-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
