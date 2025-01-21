@@ -36,6 +36,7 @@ public class Product {
 
     private int stock;
 
+    @Column(name = "img_url")
     private String imageUrl;
 
     @ManyToOne
